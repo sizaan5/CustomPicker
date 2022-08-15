@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847A04E828AA6C3A004675FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A04E728AA6C3A004675FC /* AppDelegate.swift */; };
+		847A04EA28AA6C3A004675FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A04E928AA6C3A004675FC /* SceneDelegate.swift */; };
+		847A04EC28AA6C3A004675FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A04EB28AA6C3A004675FC /* ViewController.swift */; };
+		847A04EF28AA6C3A004675FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A04ED28AA6C3A004675FC /* Main.storyboard */; };
+		847A04F128AA6C3C004675FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A04F028AA6C3C004675FC /* Assets.xcassets */; };
+		847A04F428AA6C3C004675FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A04F228AA6C3C004675FC /* LaunchScreen.storyboard */; };
+		847A04FE28AA6CCB004675FC /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A04FD28AA6CCB004675FC /* PickerViewController.swift */; };
+		847A050228AA6E1A004675FC /* PickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A050028AA6E1A004675FC /* PickerCollectionViewCell.swift */; };
+		847A050328AA6E1A004675FC /* PickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847A050128AA6E1A004675FC /* PickerCollectionViewCell.xib */; };
+		9160A13316781DF826EC27A5 /* Pods_CustomPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E396BA1D7249235286E4E194 /* Pods_CustomPicker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B25E38A57CD185C3CE0BFE7 /* Pods-CustomPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPicker.release.xcconfig"; path = "Target Support Files/Pods-CustomPicker/Pods-CustomPicker.release.xcconfig"; sourceTree = "<group>"; };
+		3E82F2DD96E6D75F05083495 /* Pods-CustomPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPicker.debug.xcconfig"; path = "Target Support Files/Pods-CustomPicker/Pods-CustomPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		847A04E428AA6C3A004675FC /* CustomPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A04E728AA6C3A004675FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847A04E928AA6C3A004675FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847A04EB28AA6C3A004675FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847A04EE28AA6C3A004675FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847A04F028AA6C3C004675FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847A04F328AA6C3C004675FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847A04F528AA6C3C004675FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A04FD28AA6CCB004675FC /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		847A050028AA6E1A004675FC /* PickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		847A050128AA6E1A004675FC /* PickerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		E396BA1D7249235286E4E194 /* Pods_CustomPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847A04E128AA6C3A004675FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9160A13316781DF826EC27A5 /* Pods_CustomPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D23372719BD83D07964656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E396BA1D7249235286E4E194 /* Pods_CustomPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847A04DB28AA6C3A004675FC = {
+			isa = PBXGroup;
+			children = (
+				847A04E628AA6C3A004675FC /* CustomPicker */,
+				847A04E528AA6C3A004675FC /* Products */,
+				ED08F1878C6543691C4B88F9 /* Pods */,
+				03D23372719BD83D07964656 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		847A04E528AA6C3A004675FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847A04E428AA6C3A004675FC /* CustomPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847A04E628AA6C3A004675FC /* CustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				847A04FF28AA6E05004675FC /* Nibs */,
+				847A04FC28AA6CAC004675FC /* Storyboards */,
+				847A04FB28AA6C9C004675FC /* Controllers */,
+				847A04E728AA6C3A004675FC /* AppDelegate.swift */,
+				847A04E928AA6C3A004675FC /* SceneDelegate.swift */,
+				847A04F028AA6C3C004675FC /* Assets.xcassets */,
+				847A04F228AA6C3C004675FC /* LaunchScreen.storyboard */,
+				847A04F528AA6C3C004675FC /* Info.plist */,
+			);
+			path = CustomPicker;
+			sourceTree = "<group>";
+		};
+		847A04FB28AA6C9C004675FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				847A04EB28AA6C3A004675FC /* ViewController.swift */,
+				847A04FD28AA6CCB004675FC /* PickerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		847A04FC28AA6CAC004675FC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				847A04ED28AA6C3A004675FC /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		847A04FF28AA6E05004675FC /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				847A050028AA6E1A004675FC /* PickerCollectionViewCell.swift */,
+				847A050128AA6E1A004675FC /* PickerCollectionViewCell.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		ED08F1878C6543691C4B88F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E82F2DD96E6D75F05083495 /* Pods-CustomPicker.debug.xcconfig */,
+				2B25E38A57CD185C3CE0BFE7 /* Pods-CustomPicker.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847A04E328AA6C3A004675FC /* CustomPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A04F828AA6C3C004675FC /* Build configuration list for PBXNativeTarget "CustomPicker" */;
+			buildPhases = (
+				78782BAE5197D59D1C60A2D3 /* [CP] Check Pods Manifest.lock */,
+				847A04E028AA6C3A004675FC /* Sources */,
+				847A04E128AA6C3A004675FC /* Frameworks */,
+				847A04E228AA6C3A004675FC /* Resources */,
+				A7D25D0B1A1141508CA1F263 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPicker;
+			productName = CustomPicker;
+			productReference = 847A04E428AA6C3A004675FC /* CustomPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847A04DC28AA6C3A004675FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					847A04E328AA6C3A004675FC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 847A04DF28AA6C3A004675FC /* Build configuration list for PBXProject "CustomPicker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847A04DB28AA6C3A004675FC;
+			productRefGroup = 847A04E528AA6C3A004675FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847A04E328AA6C3A004675FC /* CustomPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847A04E228AA6C3A004675FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A04F428AA6C3C004675FC /* LaunchScreen.storyboard in Resources */,
+				847A04F128AA6C3C004675FC /* Assets.xcassets in Resources */,
+				847A050328AA6E1A004675FC /* PickerCollectionViewCell.xib in Resources */,
+				847A04EF28AA6C3A004675FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78782BAE5197D59D1C60A2D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D25D0B1A1141508CA1F263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomPicker/Pods-CustomPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomPicker/Pods-CustomPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomPicker/Pods-CustomPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847A04E028AA6C3A004675FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A04EC28AA6C3A004675FC /* ViewController.swift in Sources */,
+				847A050228AA6E1A004675FC /* PickerCollectionViewCell.swift in Sources */,
+				847A04E828AA6C3A004675FC /* AppDelegate.swift in Sources */,
+				847A04FE28AA6CCB004675FC /* PickerViewController.swift in Sources */,
+				847A04EA28AA6C3A004675FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		847A04ED28AA6C3A004675FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A04EE28AA6C3A004675FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847A04F228AA6C3C004675FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A04F328AA6C3C004675FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847A04F628AA6C3C004675FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847A04F728AA6C3C004675FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847A04F928AA6C3C004675FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E82F2DD96E6D75F05083495 /* Pods-CustomPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ew.CustomPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847A04FA28AA6C3C004675FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B25E38A57CD185C3CE0BFE7 /* Pods-CustomPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ew.CustomPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847A04DF28AA6C3A004675FC /* Build configuration list for PBXProject "CustomPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A04F628AA6C3C004675FC /* Debug */,
+				847A04F728AA6C3C004675FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A04F828AA6C3C004675FC /* Build configuration list for PBXNativeTarget "CustomPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A04F928AA6C3C004675FC /* Debug */,
+				847A04FA28AA6C3C004675FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847A04DC28AA6C3A004675FC /* Project object */;
+}
