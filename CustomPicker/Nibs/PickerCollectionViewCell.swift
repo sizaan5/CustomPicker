@@ -31,6 +31,6 @@ extension PickerCollectionViewCell: StackTransformView {
 //    }
     //stack
     var stackOptions: StackTransformViewOptions {
-        .layout(.transparent)
+        .layout(.perspective)
     }
 }
